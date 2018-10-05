@@ -9,7 +9,8 @@ public class MoveCube : MonoBehaviour
 	
 	// Use this for initialization
 	void Start () {
-		
+		//Matt's makin changes!!!
+		print("Starting to move a cube!!!");
 	}
 	
 	// Update is called once per frame
@@ -18,19 +19,19 @@ public class MoveCube : MonoBehaviour
 		var position = transform.position;
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
-			transform.position = position * cubeSpeed * Vector3.up;
+			transform.position = position + cubeSpeed * Vector3.up;
 		}	
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
-			transform.position = position * cubeSpeed * Vector3.down;
+			transform.position = position + cubeSpeed * Vector3.down;
 		}	
 		else if (Input.GetKeyDown(KeyCode.LeftArrow))
 		{
-			transform.position = position * cubeSpeed * Vector3.left;
+			transform.position = position + cubeSpeed * Vector3.left;
 		}	
 		else if (Input.GetKeyDown(KeyCode.RightArrow))
 		{
-			transform.position = position * cubeSpeed * Vector3.right;
+			transform.position = position + cubeSpeed * Vector3.right;
 		}	
 	}
 }
