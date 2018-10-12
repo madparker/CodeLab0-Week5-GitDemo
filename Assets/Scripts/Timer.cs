@@ -15,5 +15,13 @@ public class Timer : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		if (timeElapsed < duration)
+		{
+			timeElapsed += Time.deltaTime;
+		}
+		else
+		{
+			Debug.Log("Times up!");
+		}
 	}
 }
