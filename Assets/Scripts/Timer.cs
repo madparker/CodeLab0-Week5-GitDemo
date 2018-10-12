@@ -19,6 +19,14 @@ public class Timer : MonoBehaviour
 		{
 			timeElapsed += Time.deltaTime;
 			Debug.Log("Timer is running!");
+			
+			huafhjkhjkqw   y asdjgkads k ads hjkas d as jgkas
+				jkgsdfjkgasdjgkasd
+					jgadshjgsadjgk
+						
+						asdjgsadghjasdjhg
+							ifmdzfhjkasdjkh
+								sjgk
 		}
 		else
 		{
