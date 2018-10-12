@@ -18,6 +18,7 @@ public class Timer : MonoBehaviour
 		if (timeElapsed < duration)
 		{
 			timeElapsed += Time.deltaTime;
+			Debug.Log("Timer is running!");
 		}
 		else
 		{
