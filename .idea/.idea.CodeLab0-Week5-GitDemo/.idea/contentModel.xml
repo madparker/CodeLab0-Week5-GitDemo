@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Hey Matt.txt" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="InputStartTimer.cs" t="Include" />
           <e p="MoveCube.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>
